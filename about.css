@@ -1,0 +1,90 @@
+*{
+
+    margin: 0;;
+    color: #fff;
+
+    
+}
+
+body{
+
+    overflow-x: hidden;
+    background-image: url(file:///C:/Users/admin/Documents/GitHub/new%20main/photos/picture/bg1.png);
+    
+}
+
+#first-main-container{
+    background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+
+}
+
+#main-navbar{
+   
+    display: flex;
+    height:240px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+
+
+#Mehndi-Hackel-h1-heading{
+
+    font-size: 5vmax;
+  
+}
+
+
+
+  /* second part started rom hear */
+
+  #nav2{
+
+  
+    height: 5vh;
+    width:100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: #000 solid 2px;
+    background-color: rgba(0,0,0,0.3);
+   
+}
+#nav2 a{
+    text-decoration: none;
+    font-size: 1.5vmax;
+   
+     
+}
+#second-main-container{
+
+
+    background-image: url(https://images.pexels.com/photos/139306/pexels-photo-139306.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+ 
+ 
+
+#mid{
+
+    height: auto;
+    width: 100vw;
+    
+}
+
+#Our-Mehndi-h3-heading{
+    font-size: 3.4vw;
+    text-align: center;
+}
+
+
+
+
+#Comming{
+
+    height: 100vh;
+}
