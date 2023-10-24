@@ -118,12 +118,20 @@ background: linear-gradient(180deg, rgba(10,11,21,1) 0%, rgba(27,24,113,1) 100%)
    
 }
 
+#main-item1{
+    
+    height:auto;
+    width: auto;
+    background:transparent;
+    margin: 7px;
+    border: 4px solid #333;
 
+  
+}
+  
+#main-item1-photo{
+ 
+    height:auto;
+    width: 25vw;
 
-
-
-
-
-
-
-
+}
