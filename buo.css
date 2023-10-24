@@ -1,60 +1,86 @@
 *{
 
-    margin: 0;;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+html,body{
+
+    font-family: Montserrat, sans-serif;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(10,11,21,1) 0%, rgba(27,24,113,1) 100%);
+}
+
+
+
+
+#web-main-container{
+
+}
+
+
+#first-main-container{
+
+    margin: 5vw;
+    background-color: transparent;
+    
+}
+
+#navbar-1{
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+  
+
+}
+
+
+#navbar-1 a{
+
+    margin-top: 5vw;
+    text-decoration: none;
+    transition: all ease-in 0.4s;
+    font-size: 1.4vmax;
     color: #fff;
 
 }
-body{
 
-    overflow-x: hidden;
-    background-image: url(file:///C:/Users/admin/Documents/GitHub/new%20main/photos/picture/bg1.png);
+#navbar-1 :hover{
+
+    color: #56ECC3;
+    font-weight: 700;
+}
+
+
+
+
+
+#navbar2-heading{
+
+   
+    font-size: 3.5vw; 
+    margin-top: 7vw;
+    color: #4900F2;
     
-}
-#first-main-container{
-    background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=600);
+    
 
+}    
 
-}
+#navbar2-heading :nth-child(1){
 
-
-#main-navbar{
-   
-    display: flex;
-    height:240px;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0,0,0,0.2);
-}
-
-#Mehndi-Hackel-h1-heading{
-
-    font-size: 5vmax;
-  
+    margin-left: 20vw;
 }
 
 
-
-/* second part started rom hear */
-
-#nav2{
-
-
-  height: 5vh;
-  width:100vw;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  border: #000 solid 2px;
-  background-color: rgba(0,0,0,0.3);
- 
-}
-#nav2 a{
-  text-decoration: none;
-  font-size: 1.5vmax;
- 
-   
-}
 
 
 

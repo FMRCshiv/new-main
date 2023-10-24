@@ -24,14 +24,6 @@ function init() {
 
 }
 
-init()
-
-var crsr = document.querySelector(".cursor")
-var main = document.querySelector(".main")
-document.addEventListener("mousemove",function(dets){
-    crsr.style.left = dets.x + 20+"px"
-    crsr.style.top = dets.y + 20+"px"
-})
 
 gsap.from(".page1 h1,.page1 h2", {
     y: 10,
@@ -87,33 +79,3 @@ tl3.to(".main",{
 })
 
 
-var boxes = document.querySelectorAll(".box")
-boxes.forEach(function(elem){
-    elem.addEventListener("mouseenter",function(){
-        var att = elem.getAttribute("data-image")
-        crsr.style.width = "470px"
-        crsr.style.height = "370px"
-        crsr.style.borderRadius = "0"
-        crsr.style.backgroundImage = `url(${att})`
-    })
-    elem.addEventListener("mouseleave",function(){
-        elem.style.backgroundColor = "transparent"
-        crsr.style.width = "20px"
-        crsr.style.height = "20px"
-        crsr.style.borderRadius = "50%"
-        crsr.style.backgroundImage = `none`
-    })
-})
-
-var h4 = document.querySelectorAll("#nav h4")
-var purple = document.querySelector("#purple")
-h4.forEach(function(elem){
-    elem.addEventListener("mouseenter",function(){
-        purple.style.display = "block"   
-        purple.style.opacity = "1"
-    })
-    elem.addEventListener("mouseleave",function(){
-        purple.style.display = "none"   
-        purple.style.opacity = "0"
-    })
-})

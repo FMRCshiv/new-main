@@ -1,79 +1,93 @@
 *{
 
     margin: 0;
-    color: #fff;
-
-    
-    
+    padding: 0;
 }
 
-body{
-   
-    background-repeat: round;
+
+
+
+
+html,body{
+
+    font-family: Montserrat, sans-serif;
     overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+   
+background: linear-gradient(180deg, rgba(10,11,21,1) 0%, rgba(27,24,113,1) 100%);
 }
+
+
+
+
+#web-main-container{
+
+}
+
 
 #first-main-container{
-    background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=600);
 
-
+    margin: 5vw;
+    background-color: transparent;
+    
 }
 
-#main-navbar{
+#navbar-1{
+
    
-    
     display: flex;
-    height:240px;
-    width: 100vw;
     align-items: center;
-    justify-content: center;
-    background-color: rgba(0,0,0,0.2);
-   
-    
-}
-
-
-
-
-#Mehndi-Hackel-h1-heading{
-
-    font-size: 5vmax;
-    background: transparent;
-    /* -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
-    */
-  
-}
-
-
-  /* second part started rom hear */
-
-#nav2{
-
-  
-    height: 5vh;
-    width:100vw;
-    display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    border: #000 solid 2px;
-    background-color: rgba(0,0,0,0.3);
-   
+    position: sticky;
+  
+
 }
 
-#nav2 a{
+
+#navbar-1 a{
+
+    margin-top: 5vw;
     text-decoration: none;
-    font-size: 1.5vmax;
+    transition: all ease-in 0.4s;
+    font-size: 1.4vmax;
+    color: #fff;
+
+}
+
+#navbar-1 :hover{
+
+    color: #56ECC3;
+    font-weight: 700;
+}
+
+
+
+
+
+#navbar2-heading{
+
    
-     
+    font-size: 3.5vw; 
+    margin-top: 7vw;
+    color: #4900F2;
+    stroke: #fff;
+    stroke-width: 2px;
+    
+    
+
+}    
+
+#navbar2-heading :nth-child(1){
+
+    margin-left: 20vw;
 }
 
 
 #second-main-container{
 
 
-    background-image: url(https://images.pexels.com/photos/139306/pexels-photo-139306.jpeg?auto=compress&cs=tinysrgb&w=600);
-}
+ }
 
 
 #mid{
@@ -86,6 +100,7 @@ body{
 #Our-Mehndi-h3-heading{
     font-size: 3.4vw;
     text-align: center;
+    margin-top: 30px;
 }
 
 
@@ -93,83 +108,15 @@ body{
 
 
 #items{
-
-    width: 100vw;
+    width: auto;
+    margin: auto;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
    
 }
-
-#main-item1{
-    
-    height:450px;
-    width: 280px;
-    background:transparent;
-    margin: 7px;
-    border: 4px solid #333;
-
-  
-}
-  
-
-#main-item2{
-  
-    height:450px;
-    width: 280px;
-    background:transparent;
-    margin: 7px;
-    border: 4px solid #333;
-}
-
-
-
-#main-item3{
-
-   
-    height:450px;
-    width: 280px;
-    background:transparent;
-    margin: 7px;
-    border: 4px solid #333;
-}
-
-
-
-#main-item4{
-
-   
-    height:450px;
-    width: 280px;
-    background:transparent;
-    margin: 7px;
-    border: 4px solid #333;
-}
-
-
-
-
-
-
-#fotter-video-main-container{
-    height: auto;
-    width: auto;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    
-}
-
-#fotter-video1{
-
-    height: auto;
-    width: 80vw;
-    
-}
-
-
-
 
 
 
